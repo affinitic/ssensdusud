@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<object name="portal_skins"
+        allow_any="False"
+        cookie_persistence="False"
+        default_skin="Site du gite Les S Sens du Sud">
+
+    <object name="ssensdusud_skin_images"
+            meta_type="Filesystem Directory View"
+            directory="ssensdusud.skin:skins/ssensdusud_skin_images"/>
+
+    <skin-path name="Site du gite Les S Sens du Sud"
+               based-on="Sunburst Theme">
+        <layer name="ssensdusud_skin_images"
+               insert-after="custom"/>
+
+    </skin-path>
+
+</object>

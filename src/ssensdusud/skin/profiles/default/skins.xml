@@ -7,12 +7,20 @@
     <object name="ssensdusud_skin_images"
             meta_type="Filesystem Directory View"
             directory="ssensdusud.skin:skins/ssensdusud_skin_images"/>
+    <object name="ssensdusud_templates"
+            meta_type="Filesystem Directory View"
+            directory="ssensdusud.skin:skins/ssensdusud_skin_templates"/>
+    <object name="ssensdusud_styles"
+            meta_type="Filesystem Directory View"
+            directory="ssensdusud.skin:skins/ssensdusud_skin_styles"/>
 
     <skin-path name="Site du gite Les S Sens du Sud"
                based-on="Sunburst Theme">
         <layer name="ssensdusud_skin_images"
                insert-after="custom"/>
-
+        <layer name="ssensdusud_skin_templates"
+               insert-after="ssensdusud_skin_images"/>
+        <layer name="ssensdusud_skin_styles"
+               insert-after="ssensdusud_skin_templates"/>
     </skin-path>
-
 </object>

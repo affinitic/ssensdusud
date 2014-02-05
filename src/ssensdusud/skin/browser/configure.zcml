@@ -1,0 +1,36 @@
+<configure
+   xmlns="http://namespaces.zope.org/zope"
+   xmlns:plone="http://namespaces.plone.org/plone"
+   xmlns:browser="http://namespaces.zope.org/browser"
+   i18n_domain="ssensdusud.skin">
+
+   <interface
+      interface=".interfaces.ISsensdusudTheme"
+      type="zope.publisher.interfaces.browser.IBrowserSkinType"
+      name="ssensdusud.skin"
+      />
+
+
+<!-- ressources -->
+
+  <browser:resource
+      file="js/supersized.3.2.7.min.js"
+      name="supersized.3.2.7.min.js"
+      />
+
+  <browser:resource
+      file="js/supersized.shutter.min.js"
+      name="supersized.shutter.min.js"
+      />
+
+  <browser:resource
+      file="js/jquery.easing.min.js"
+      name="jquery.easing.min.js"
+      />
+
+  <browser:resource
+      file="js/ssensdusud.js"
+      name="ssensdusud.js"
+      />
+
+</configure>

@@ -2,7 +2,7 @@
 <object name="portal_css">
 
     <stylesheet title="Site du gite Les S Sens du Sud Styles"
-                id="++theme++ssensdusud.skin/css/style.css"
+                id="++theme++ssensdusud.skin/style.css"
                 media="screen"
                 rel="stylesheet"
                 rendering="import"
@@ -12,5 +12,14 @@
                 enabled="1"
                 applyPrefix="True"
                 expression="request/HTTP_X_THEME_ENABLED | nothing"/>
-
+    <stylesheet title=""
+                id="ssensdusud.css"
+                media="screen"
+                rel="stylesheet"
+                rendering="import"
+                cacheable="True"
+                compression="safe"
+                cookable="True"
+                enabled="1"
+                expression=""/>
 </object>

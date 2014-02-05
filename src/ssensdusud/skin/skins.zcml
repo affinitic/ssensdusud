@@ -3,5 +3,7 @@
     xmlns:cmf="http://namespaces.zope.org/cmf">
 
    <cmf:registerDirectory name="ssensdusud_skin_images"/>
+   <cmf:registerDirectory name="ssensdusud_skin_templates"/>
+   <cmf:registerDirectory name="ssensdusud_skin_styles"/>
 
 </configure>

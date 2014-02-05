@@ -1,6 +1,4 @@
 <?xml version="1.0"?>
-
 <layers>
-    <layer name="ssensdusud.skin"
-           interface="ssensdusud.skin.interfaces.ICustomTheme" />
+    <layer name="ssensdusud.skin" interface="ssensdusud.skin.interfaces.ISsensdusudTheme" />
 </layers>

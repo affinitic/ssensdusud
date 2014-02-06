@@ -2,20 +2,70 @@
 Site du gite Les S Sens du Sud CSS BY AFFINITIC
 */
 
-#left-column{
+#portal-column-one{
 float:left;
-width:20%;
-margin-left:20px;
+width:245px;
 }
 
-#main-column{
+#portal-column-content{
 float:right;
-width:75%;
-margin-right:20px;
+width:700px;
+margin-right:8px;
+min-height:500px;
+padding:1em;
+border-radius:18px;
+background-color:rgba(45,28,23,0.7);
 }
 
-#main-column-large {
-float:none;
-width:95%;
-margin:auto;
+
+/* style des liens sur tout le site */
+#content a:link,
+dl.portlet a:link {
+color:#205C90;
+}
+
+#content a:hover,
+dl.portlet a:hover {
+color:#a43c07 !important;
+}
+
+
+/*
+PORTLET NAVIGATION
+*/
+dl.portletNavigationTree {
+border: 1px solid #F4B76B;
+border-radius: 12px;
+margin-left: 10px;
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(247,219,183,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(247,219,183,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(247,219,183,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(247,219,183,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(247,219,183,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(247,219,183,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7dbb7',GradientType=0 ); /* IE6-9 */
+box-shadow:5px 5px 10px rgba(50,50,50,0.5);
+}
+
+ul.navTree li.navTreeItem .contenttype-folder {
+background: url("contenttypes-sprite.png") no-repeat scroll 0 -685px rgba(0, 0, 0, 0);
+}
+
+div#left-column dl.portlet dt.portletHeader{
+border-radius:12px 12px 0px 0px;
+background-color:#a43c07;
+text-align:center;
+}
+
+div#left-column dl.portlet dt.portletHeader a{
+color:#f5bf48;
+font-size:1.2em;
+}
+
+dl.portlet ul.navTree .navTreeCurrentItem {
+background-color: #F2CD9F;
+border-left: 1em solid #F4B76B;
+margin-left: -1em;
+margin-right: -1em;
 }

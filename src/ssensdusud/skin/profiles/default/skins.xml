@@ -7,10 +7,10 @@
     <object name="ssensdusud_skin_images"
             meta_type="Filesystem Directory View"
             directory="ssensdusud.skin:skins/ssensdusud_skin_images"/>
-    <object name="ssensdusud_templates"
+    <object name="ssensdusud_skin_templates"
             meta_type="Filesystem Directory View"
             directory="ssensdusud.skin:skins/ssensdusud_skin_templates"/>
-    <object name="ssensdusud_styles"
+    <object name="ssensdusud_skin_styles"
             meta_type="Filesystem Directory View"
             directory="ssensdusud.skin:skins/ssensdusud_skin_styles"/>
 

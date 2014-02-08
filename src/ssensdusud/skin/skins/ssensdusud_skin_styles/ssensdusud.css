@@ -2,6 +2,24 @@
 Site du gite Les S Sens du Sud CSS BY AFFINITIC
 */
 
+#portal-personaltools {
+background: none repeat scroll 0 0 rgba(220,220,220,0.7);
+border-bottom-left-radius: 0.5em;
+border-bottom-right-radius: 0.5em;
+float: right;
+font-size: 80%;
+padding: 0.25em 0.5em;
+position: relative;
+right: 0;
+top: 0;
+z-index: 3;
+}
+
+#portal-personaltools dd {
+background: none repeat scroll 0 0 rgba(220,220,220,0.7);
+padding-bottom: 0.5em;
+}
+
 #portal-column-one{
 float:left;
 width:245px;

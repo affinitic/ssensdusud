@@ -1,0 +1,30 @@
+<html xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      i18n:domain="plone">
+
+<body>
+
+<!--
+    Portlet domaine du site
+    Portlet avec toutes les picèces de puzzle niveau 1 du site.
+-->
+
+<div metal:define-macro="portlet">
+    <div class="portlet-left-column">
+        <dl id="portlet-partenaire">
+            <dt class="portletHeaderDB">
+                <span class="portletTopLeft"></span>
+                <span class="portletTopRight"></span>
+            </dt>
+            <dt class="portletItem">
+                <a href="http://www.france-voyage.com/chambres-hotes/chambre-villa-saint-laurent-de-la-cabrerisse-77801.htm"
+                   target="_blank" >
+                   Référencé sur<br />
+                   <img src="logo_france_voyage.png"
+                        title="Chambre d'hôtes dans l'Aude "></a>
+            </dt>
+        </dl>
+    </div>
+</div>
+</body>
+</html>

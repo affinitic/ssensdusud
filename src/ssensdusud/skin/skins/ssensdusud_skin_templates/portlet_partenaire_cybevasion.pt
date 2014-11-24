@@ -17,13 +17,17 @@
                 <span class="portletTopRight"></span>
             </dt>
             <dt class="portletItem">
-                <a href="​http://www.cybevasion.fr/"
-                   target="_blank">
                   Guide de gîtes et chambres d'hôtes en France
-                  <p><img src="logo_chambre_hote_fr.png"
-                        title="Guide de gîtes et chambres d'hôtes en France" /></p>
-                  <p><img src="logo_cybevasion.png"
-                        title="Cybevasion" /></p></a>
+                  <p>
+                    <a href="http://www.chambres-hotes.fr/" target="_blank">
+                      <img src="logo_chambre_hote_fr.png"
+                           title="Guide de gîtes et chambres d'hôtes en France" /></a>
+                  </p>
+                  <p>
+                    <a href="http://www.cybevasion.fr/" target="_blank">
+                      <img src="logo_cybevasion.png"
+                        title="Cybevasion" /></a>
+                  </p>
 
             </dt>
         </dl>

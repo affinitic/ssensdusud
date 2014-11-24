@@ -11,17 +11,20 @@
 
 <div metal:define-macro="portlet">
     <div class="portlet-left-column">
-        <dl id="portlet-partenaire">
+        <dl id="portlet-partenaire-cybevasion">
             <dt class="portletHeaderDB">
                 <span class="portletTopLeft"></span>
                 <span class="portletTopRight"></span>
             </dt>
             <dt class="portletItem">
-                <a href="http://www.france-voyage.com/chambres-hotes/chambre-villa-saint-laurent-de-la-cabrerisse-77801.htm"
-                   target="_blank" >
-                   Référencé sur<br />
-                   <img src="logo_france_voyage.png"
-                        title="Chambre d'hôtes dans l'Aude "></a>
+                <a href="​http://www.cybevasion.fr/"
+                   target="_blank">
+                  Guide de gîtes et chambres d'hôtes en France
+                  <p><img src="logo_chambre_hote_fr.png"
+                        title="Guide de gîtes et chambres d'hôtes en France" /></p>
+                  <p><img src="logo_cybevasion.png"
+                        title="Cybevasion" /></p></a>
+
             </dt>
         </dl>
     </div>
